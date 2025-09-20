@@ -1,5 +1,7 @@
 #used to iterate over a sequence(list,string,range)
 '''
+#A for loop is used when "you know how many times you want to repeat" something (iteration over a sequence or range).
+
 for i in range(1,11):#range(start,stop) o/p: 1 to (11-1)
     print(i)
 
