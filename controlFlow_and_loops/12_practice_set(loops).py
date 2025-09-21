@@ -94,7 +94,7 @@ while True:
 
     if num==0:
         print("program ended")
-        break"""
+        break
 
 #sum of digits of a number (e.g., 123 → 1+2+3=6)
 num=int(input("enter a num:"))
@@ -106,4 +106,17 @@ while num>0:
     num //=10 
 
 print(sum)
+
+#asking the user to guess a secret number until they guess it correctly.
+sec_num=2
+num = None
+while num != sec_num:
+    num=int(input("guess a secret num:"))
+
+print("You've guessed it correct!")
+"""
+
+#print the factorial of a given number using while.
+
+
 
