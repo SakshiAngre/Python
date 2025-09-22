@@ -16,5 +16,9 @@ print(fruits.split(","))
 """
 
 str="python123"
+print(str.isalpha())
+print(str.isalnum())
+print(str.isdigit())
+print(str.isdecimal())
 
 
