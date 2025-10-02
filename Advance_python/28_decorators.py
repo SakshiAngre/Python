@@ -14,3 +14,18 @@ def say_hello():
 say_hello()
 f=decorator(say_hello())
 f()"""
+
+#decorators with arguments
+def repeat(n):
+    def decorator(func):
+        def wrapper(a):
+            for i in range(n):
+                func(a)
+        return wrapper
+    return decorator
+
+@repeat(7)
+def greet(a):
+    print(f"hello! {a}")
+
+greet("sakshi") 
