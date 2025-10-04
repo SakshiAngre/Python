@@ -1,0 +1,19 @@
+"""
+#purpose of dot(.) operator#
+
+1. Attribute Access (Object-Oriented Programming)
+s = Student("Sakshi")
+print(s.name)
+
+2. Module and Package Access
+import math
+print(math.pi)     #attribute from math module
+print(math.sqrt(16))
+
+3. Namespace Resolution
+import datetime
+print(datetime.date.today())
+
+4. Chaining
+"hello".upper().replace("H", "J").lower()
+"""
